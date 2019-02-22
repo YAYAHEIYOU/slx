@@ -1,0 +1,264 @@
+
+/*顶部开始*/
+.header{
+    width: 7.5rem;
+    height: 1.28rem;
+    background-color: #f7ac29;
+    padding-top: 0.5rem;
+}
+.headerH{
+    height: 0.38rem;
+    text-align: center;
+
+    position: relative;
+}
+.leftImg{
+    width: 0.35rem;
+    height: 0.35rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 0;
+}
+.leftImg>img{
+    width: 100%;
+    height: 100%;
+}
+.headerH>h4{
+    font-size: 0.38rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+.rightImg{
+    width: 0.35rem;
+    height: 0.35rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0;
+}
+.rightImg>img{
+    width: 100%;
+    height: 100%;
+}
+/*顶部结束*/
+/*列表开始*/
+.payList{
+    width: 7.02rem;
+    margin: 0.24rem auto 0.62rem;
+    height: 2.26rem;
+    background-color: #ffffff;
+    box-shadow: 0.03rem 0.04rem 0.15rem 0
+    rgba(247, 172, 41, 0.75);
+    border-radius:0.1rem;
+    position: relative;
+}
+.payItem{
+    width: 100%;
+    height: 0.92rem;
+    padding-left: 0.33rem;
+    margin-bottom: 0.24rem;
+}
+.payItemImg{
+    width: 0.93rem;
+    height: 0.92rem;
+    float: left;
+}
+.payItemImg>img{
+    width: 100%;
+    height: 100%;
+}
+.payItemText{
+    width: 1.22rem;
+    font-size: 0.24rem;
+    height: 100%;
+    float: left;
+    margin-left: 0.24rem;
+}
+.payItemTitle{
+    margin-top: 0.16rem;
+}
+.payItemPrice{
+    color: #f72938;
+    margin-top: 0.08rem;
+}
+.payListText{
+    width: 1.8rem;
+    height: 0.5rem;
+    position: absolute;
+    right: 0.24rem;
+    bottom: 0.24rem;
+    font-size: 0.18rem;
+    color: rgba(0,0,0,0.6);
+}
+/*列表结束*/
+/*标题开始*/
+.title{
+    width: 4.77rem;
+    height: 0.59rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 0.59rem;
+
+    font-size: 0.3rem;
+}
+.titleRed{
+    width: 2.13rem;
+    height: 0.59rem;
+    background-color: #f72938;
+    border-radius: 0.5rem;
+    color: #fefefe;
+}
+.titleYellow{
+    width: 2.13rem;
+    height: 0.59rem;
+    background-color: #f7ac29;
+    border-radius: 0.5rem;
+    color: #fefefe;
+}
+/*标题结束*/
+/*标题2开始*/
+.list{
+    width: 7.5rem;
+    height: 8.14rem;
+    background:rgba(238,238,238,0.6);
+    margin-top: 0.24rem;
+    padding-top: 0.27rem;
+}
+.listImg{
+    width: 3.38rem;
+    height: 0.51rem;
+    margin: 0 auto;
+}
+.listImg>img{
+    width: 100%;
+    height: 100%;
+}
+.recommendList{
+    width: 100%;
+    height:10.1rem ;
+    margin-top: 0.24rem;
+}
+.recommendItem{
+    width:100%;
+    height:1.78rem;
+    padding: 0.24rem;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 0.24rem;
+}
+.recommendItemImg{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.recommendItemImg>img{
+    display: block;
+    width:100%;
+    height:100%;
+}
+.recommendItemText{
+    width: 5rem;
+    height: 100%;
+    /*  background: #ff6700;*/
+}
+.recommendItemSpecial{
+    height: 1.09rem;
+}
+.recommendItemText>h4{
+    height: 0.325rem;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.24rem;
+    /* font-weight: 400;*/
+    color: #000000;
+}
+.recommendItemI{
+    width: 100%;
+    height: 0.295rem;
+    display: flex;
+    /*  margin-top:0.085rem;*/
+}
+.recommendItemI>.star{
+    font-family: "iconfont";
+    font-size: 0.21rem;
+    color: #f7ac29;
+}
+.recommendItemI>span{
+
+    font-family: SanFranciscoDisplay-Regular;
+    font-size: 0.18rem;
+    color: #f7ac29;
+    margin-right: 0.2rem;
+}
+.recommendItemI>p{
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    color:rgba(0,0,0,0.6);
+}
+.recommendItemText>p{
+    color:rgba(0,0,0,0.6);
+    height: 0.18rem;
+    /*margin-top:0.085rem;*/
+    font-family: PingFang-SC-Regular;
+    font-size: 0.12rem;
+}
+.recommendItemText>p>span{
+    margin-right:0.25rem;
+}
+.recommendItemText>p>s{
+    font-size: 0.14rem;
+    color:rgba(0,0,0,0.4);
+}
+.preferential{
+    width: 4.3rem;
+    height: 0.26rem;
+    margin-top: 0.24rem;
+    display: flex;
+    justify-content: space-between;
+}
+.dispatching{
+    width: 1rem;
+    height: 0.26rem;
+    border: solid 0.01rem #f7ac29;
+    font-family: PingFang-SC-Regular;
+    font-size: 0.18rem;
+    line-height: 0.24rem;
+    text-align: center;
+    color: #f72938;
+}
+.invite{
+    color: #adafad;
+    border: solid 0.01rem #e4e0e4;
+}
+.right{
+    width:1.48rem;
+    height: 0.91rem;
+    position: absolute;
+    right:0.1rem;
+    top: 0.3rem;
+    text-align: center;
+    font-size: 0.18rem;
+    color: #adafad;
+}
+.righttImg{
+    width: 0.52rem;
+    height: 0.52rem;
+    margin: 0 auto 0.06rem;
+}
+.righttImg img{
+    width: 100%;
+    height: 100%;
+}
+.xiala{
+    width: 0.14rem;
+    height: 0.07rem;
+    position: absolute;
+    bottom: 0.29rem;
+    right: 0.32rem;
+}
+.xiala img{
+    width: 100%;
+    height: 100%;
+}
+/*标题2结束*/

@@ -1,0 +1,99 @@
+
+.paySuccess{
+    width:100%;
+    height:100%;
+    background: #020202;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.6;
+}
+.method{
+    width: 5.2rem;
+    height: 3.73rem;
+    background-color: #ffffff;
+    position:fixed;
+    top:3.23rem;
+    left:1.15rem;
+    z-index: 2;
+    border-radius: 0.1rem;
+}
+.methodTitle{
+    height: 0.3rem;
+    margin-top: 0.24rem;
+}
+.methodTitleImg{
+    width: 0.16rem;
+    height: 0.29rem;
+    margin-left: 0.35rem;
+    float: left;
+}
+.methodTitleImg>img{
+    width: 100%;
+    height: 100%;
+}
+.methodTitleText{
+    width: 2.15rem;
+    height: 0.3rem;
+    font-size: 0.3rem;
+    color: #f7ac29;
+    margin-left: 2.11rem;
+    font-weight: 600;
+}
+.methodText{
+    width: 0.98rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    color: #f7ac29;
+    margin: 0.4rem auto 0.24rem;
+}
+.methodZhi{
+    width: 1.15rem;
+    height: 1.56rem;
+    margin: 0.24rem 2.11rem;
+}
+.methodZhiImg{
+    width: 1.15rem;
+    height: 1.15rem;
+}
+.methodZhiImg >img{
+    width: 100%;
+    height: 100%;
+}
+.methodZhi>p{
+    font-size: 0.22rem;
+    color:rgba(0,0,0,0.6);
+    text-align: center;
+    margin-top: 0.05rem;
+}
+.methodImg{
+    width:1.6rem;
+    height: 0.18rem;
+    position: absolute;
+    right: 0.32rem;
+    bottom: 0.28rem;
+    display: flex;
+    justify-content: space-between;
+}
+.methodImg>img{
+    width: 0.18rem;
+    height: 0.18rem;
+    margin-top: 0.08rem;
+}
+.methodImg>p{
+    font-size: 0.18rem;
+    color:rgba(0,0,0,0.6);
+}
+.methodJian{
+    width: 7.5rem;
+    height: 5.08rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
+.methodJian>img{
+    width: 100%;
+    height: 100%;
+}

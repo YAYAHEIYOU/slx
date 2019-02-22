@@ -1,0 +1,16 @@
+.movement-news{
+    width: 100%;
+    background-color: #F1F1F1;
+    padding: 30px 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    height: 1242px;
+}
+.movement-list{
+    width:877.5px;
+    padding:30px;
+    float: left;
+    box-sizing: border-box;
+    background: #ffffff;
+    height: 1181px;
+}
